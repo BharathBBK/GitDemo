@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17507" started-at="2021-07-08T02:25:03Z" finished-at="2021-07-08T02:25:21Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="4" started-at="2021-07-08T02:25:03Z" finished-at="2021-07-08T02:25:03Z">
+    </test> <!-- Test3 -->
+    <test name="Test" duration-ms="9399" started-at="2021-07-08T02:25:03Z" finished-at="2021-07-08T02:25:13Z">
+      <class name="Academy.ValidateNavbar">
+        <test-method status="PASS" signature="login()[pri:0, instance:Academy.ValidateNavbar@2cf3d63b]" name="login" is-config="true" duration-ms="8921" started-at="2021-07-08T07:55:03Z" finished-at="2021-07-08T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="ValidateNavbarM()[pri:0, instance:Academy.ValidateNavbar@2cf3d63b]" name="ValidateNavbarM" duration-ms="5" started-at="2021-07-08T07:55:12Z" finished-at="2021-07-08T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavbarM -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.ValidateNavbar@2cf3d63b]" name="close" is-config="true" duration-ms="464" started-at="2021-07-08T07:55:12Z" finished-at="2021-07-08T07:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.ValidateNavbar -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="9385" started-at="2021-07-08T02:25:03Z" finished-at="2021-07-08T02:25:13Z">
+      <class name="Academy.Validatetitle">
+        <test-method status="PASS" signature="login()[pri:0, instance:Academy.Validatetitle@548d708a]" name="login" is-config="true" duration-ms="8974" started-at="2021-07-08T07:55:03Z" finished-at="2021-07-08T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="vsubtitle()[pri:0, instance:Academy.Validatetitle@548d708a]" name="vsubtitle" duration-ms="51" started-at="2021-07-08T07:55:12Z" finished-at="2021-07-08T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vsubtitle -->
+        <test-method status="PASS" signature="vtitle()[pri:0, instance:Academy.Validatetitle@548d708a]" name="vtitle" duration-ms="61" started-at="2021-07-08T07:55:12Z" finished-at="2021-07-08T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vtitle -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.Validatetitle@548d708a]" name="close" is-config="true" duration-ms="295" started-at="2021-07-08T07:55:12Z" finished-at="2021-07-08T07:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.Validatetitle -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="17507" started-at="2021-07-08T02:25:03Z" finished-at="2021-07-08T02:25:21Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="login()[pri:0, instance:Academy.HomePage@19e4653c]" name="login" is-config="true" duration-ms="2330" started-at="2021-07-08T07:55:03Z" finished-at="2021-07-08T07:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="basepagenav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@19e4653c]" name="basepagenav" duration-ms="9868" started-at="2021-07-08T07:55:06Z" data-provider="getdata" finished-at="2021-07-08T07:55:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validuser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validUserVV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenav -->
+        <test-method status="PASS" signature="basepagenav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@19e4653c]" name="basepagenav" duration-ms="5210" started-at="2021-07-08T07:55:16Z" data-provider="getdata" finished-at="2021-07-08T07:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inpwd@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidUserVV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenav -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Academy.HomePage@19e4653c]" name="close" is-config="true" duration-ms="73" started-at="2021-07-08T07:55:21Z" finished-at="2021-07-08T07:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

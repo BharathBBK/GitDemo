@@ -1,0 +1,7 @@
+07:55:12.710 [TestNG-tests-1] INFO  resources.base - Successfully validated text msg
+07:55:12.714 [TestNG-tests-1] ERROR resources.base - text validation failed
+07:55:12.714 [TestNG-tests-1] ERROR resources.base - Navigation bar is not selected
+07:55:12.762 [TestNG-tests-3] INFO  resources.base - Navigated to Home Page
+07:55:12.813 [TestNG-tests-3] INFO  resources.base - Successfully validated text msg
+07:55:12.813 [TestNG-tests-3] ERROR resources.base - text validation failed
+07:55:12.873 [TestNG-tests-3] INFO  resources.base - Successfully validated text msg

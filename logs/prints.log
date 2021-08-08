@@ -1,0 +1,3 @@
+07:55:12.873 [TestNG-tests-3] ERROR resources.base - text validation failed
+07:55:16.008 [TestNG-tests-2] INFO  resources.base - Successfully validated Data Provider--validUserVV
+07:55:21.218 [TestNG-tests-2] INFO  resources.base - Successfully validated Data Provider--invalidUserVV

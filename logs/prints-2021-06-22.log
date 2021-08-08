@@ -1,0 +1,7 @@
+07:56:20.234 [TestNG-tests-2] INFO  resources.base - Successfully validated Data Provider--invalidUserVV
+07:57:07.013 [TestNG-tests-3] INFO  resources.base - Driver is initilized
+07:57:07.017 [TestNG-tests-1] INFO  resources.base - Driver is initilized
+07:57:11.309 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
+07:57:11.333 [TestNG-tests-1] INFO  resources.base - Successfully validated text msg
+07:57:11.333 [TestNG-tests-1] ERROR resources.base - text validation failed
+07:57:11.333 [TestNG-tests-1] ERROR resources.base - Navigation bar is not selected

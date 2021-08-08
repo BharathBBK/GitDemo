@@ -1,0 +1,7 @@
+08:56:01.569 [TestNG-tests-3] INFO  resources.base - Successfully validated text msg
+08:56:01.576 [TestNG-tests-3] ERROR resources.base - text validation failed
+08:56:01.929 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
+08:56:01.931 [TestNG-tests-1] INFO  resources.base - Successfully validated text msg
+08:56:01.931 [TestNG-tests-1] ERROR resources.base - text validation failed
+08:56:01.931 [TestNG-tests-1] ERROR resources.base - Navigation bar is not selected
+08:56:03.273 [TestNG-tests-2] INFO  resources.base - Successfully validated Data Provider--validUserVV
