@@ -51,7 +51,8 @@ public class LoginStep extends base {
 	@Then("Verify that user lands on Home screen")
 	public void verify_that_user_lands_on_home_screen() {
 		// Write code here that turns the phrase above into concrete actions
-		System.out.println("invalid cred login failed");
+		System.out.println("invalid cred login failed1");
+		System.out.println("invalid cred login failed2");
 	}
 
 
