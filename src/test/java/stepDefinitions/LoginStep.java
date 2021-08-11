@@ -62,6 +62,7 @@ public class LoginStep extends base {
 	public void close_browsers() {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("browsers closed successfully");
+		System.out.println("browsers closed successfully second");
 	    driver.quit();
 	}
 
