@@ -53,6 +53,8 @@ public class LoginStep extends base {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("invalid cred login failed1");
 		System.out.println("invalid cred login failed2");
+		System.out.println("invalid cred login failed3");
+		System.out.println("invalid cred login failed4");
 	}
 
 
